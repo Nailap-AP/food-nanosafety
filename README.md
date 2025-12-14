@@ -1,19 +1,19 @@
-# 🎈 Blank app template
+# 🍎 Food NanoSafety - Aplikasi Streamlit
 
-A simple Streamlit app template for you to modify!
+Aplikasi web sederhana untuk database regulasi dan keamanan nanoteknologi pangan, dibuat dengan Streamlit.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 📋 Fitur
 
-### How to run it on your own machine
+1. **Dashboard Utama** - Ringkasan data dan visualisasi
+2. **Database Regulasi** - Regulasi dari BPOM, FDA, EFSA, FSANZ
+3. **Data Toksisitas** - Database toksisitas berbagai nanopartikel
+4. **Risk Assessment** - Alat penilaian risiko nanopartikel
+5. **Berita Terkini** - Update perkembangan nanoteknologi pangan
 
-1. Install the requirements
+## 🚀 Cara Menjalankan
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+### Metode 1: Jalankan Lokal
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
