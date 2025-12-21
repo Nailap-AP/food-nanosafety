@@ -1,19 +1,25 @@
-# 🍎 Food NanoSafety - Aplikasi Streamlit
+# NanoCalibrate: Analytical Calibration Tool
 
-Aplikasi web sederhana untuk database regulasi dan keamanan nanoteknologi pangan, dibuat dengan Streamlit.
+A web application for creating calibration curves, specifically designed for food nanotechnology students and researchers.
 
-## 📋 Fitur
+## 🚀 Features
 
-1. **Dashboard Utama** - Ringkasan data dan visualisasi
-2. **Database Regulasi** - Regulasi dari BPOM, FDA, EFSA, FSANZ
-3. **Data Toksisitas** - Database toksisitas berbagai nanopartikel
-4. **Risk Assessment** - Alat penilaian risiko nanopartikel
-5. **Berita Terkini** - Update perkembangan nanoteknologi pangan
+- **📥 Data Input**: Upload CSV/Excel or paste data manually
+- **📈 Calibration Curve**: Linear regression with full statistics
+- **🔍 Sample Prediction**: Predict concentrations from instrument responses
+- **📊 Method Validation**: Calculate LOD, LOQ, and other validation parameters
+- **📤 Export Results**: Download results as CSV or report
 
-## 🚀 Cara Menjalankan
+## 🛠️ Installation & Usage
 
-### Metode 1: Jalankan Lokal
+### Local Installation
+```bash
+# Clone repository
+git clone https://github.com/yourusername/nanocalibrate.git
+cd nanocalibrate
 
-1. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
+# Install requirements
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
